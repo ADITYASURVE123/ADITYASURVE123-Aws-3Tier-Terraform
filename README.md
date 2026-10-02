@@ -82,7 +82,7 @@ terraform -chdir=environments/dev destroy -var-file=dev.tfvars
 
 Full walkthrough, including Jenkins setup, is in `docs/GUIDE.md`.
 
-## Cost notes (us-east-1, approximate)
+## Cost notes (ap-south-1, approximate)
 
 | Item | Cost |
 |---|---|
