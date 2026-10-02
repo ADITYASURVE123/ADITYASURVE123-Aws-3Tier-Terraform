@@ -4,7 +4,7 @@
 # so no bucket names are hardcoded in Git.
 set -euo pipefail
 ENV="${1:?usage: bash scripts/init.sh <dev|prod>}"
-PROJECT="${PROJECT:-three-tier}"
+PROJECT="${PROJECT:-three-tier-v2}"
 REGION="${AWS_REGION:-ap-south-1}"
 ACCOUNT_ID="$(aws sts get-caller-identity --query Account --output text)"
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
