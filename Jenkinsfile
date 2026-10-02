@@ -40,8 +40,8 @@ pipeline {
   }
 
   environment {
-    AWS_REGION = 'us-east-1'
-    AWS_DEFAULT_REGION = 'us-east-1'
+    AWS_REGION = 'ap-south-1'
+    AWS_DEFAULT_REGION = 'ap-south-1'
     TF_IN_AUTOMATION = 'true'
     TF_INPUT = '0'
     TF_DIR = "environments/${params.ENVIRONMENT}"
