@@ -7,7 +7,7 @@ variable "region" {
 variable "project" {
   description = "Project prefix. Must match PROJECT used by scripts/init.sh."
   type        = string
-  default     = "three-tier"
+  default     = "three-tier-v2"
 }
 
 variable "force_destroy" {
