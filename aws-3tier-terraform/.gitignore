@@ -1,0 +1,16 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfplan
+tfplan
+tfplan.txt
+# Secrets (never commit)
+*.auto.tfvars
+secrets.tfvars
+*.pem
+.env
+# OS / editor
+.DS_Store
+.vscode/

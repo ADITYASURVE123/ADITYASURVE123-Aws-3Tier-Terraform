@@ -1,0 +1,17 @@
+project                  = "three-tier"
+environment              = "dev"
+region                   = "us-east-1"
+vpc_cidr                 = "10.0.0.0/16"
+public_subnet_cidrs      = ["10.0.1.0/24", "10.0.2.0/24"]
+private_app_subnet_cidrs = ["10.0.11.0/24", "10.0.12.0/24"]
+private_db_subnet_cidrs  = ["10.0.21.0/24", "10.0.22.0/24"]
+single_nat_gateway       = true
+instance_type            = "t3.micro"
+asg_min_size             = 1
+asg_max_size             = 2
+asg_desired_capacity     = 1
+db_instance_class        = "db.t3.micro"
+db_multi_az              = false
+db_backup_retention_days = 1
+db_deletion_protection   = false
+db_skip_final_snapshot   = true
