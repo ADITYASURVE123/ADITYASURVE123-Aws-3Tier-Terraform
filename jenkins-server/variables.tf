@@ -1,7 +1,7 @@
 variable "region" {
   description = "AWS region."
   type        = string
-  default     = "us-east-1"
+  default     = "ap-south-1"
 }
 
 variable "project" {
@@ -13,7 +13,7 @@ variable "project" {
 variable "instance_type" {
   description = "Jenkins instance type."
   type        = string
-  default     = "t3.small"
+  default     = "c7i-flex.large"
 }
 
 variable "my_ip_cidr" {
